@@ -17,3 +17,28 @@
     margin-right: 10rem;
   }
 }
+
+.section-features {
+  background-image: linear-gradient(to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)),
+    url(../img/nat-4.jpg);
+  background-size: cover;
+
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+
+  &>* {
+    transform: skewY(7deg);
+  }
+
+}
+
+
+.featurs-flex-box {
+  display: flex;
+  gap: 5rem;
+  margin: 0 10rem;
+  padding: 20rem 0;
+  // flex-wrap: wrap;
+}
